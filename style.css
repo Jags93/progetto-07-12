@@ -1,0 +1,23 @@
+body {
+  background-color: dimgray;
+  background-image: url(./abstract.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.immagine {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+.card {
+  border: none;
+}
